@@ -6,6 +6,7 @@ export default function HomeScreen({ navigation }) {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
+  
   useEffect(() => {
     fetch("https://fakestoreapi.com/products")
       .then((res) => res.json())
