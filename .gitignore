@@ -3,7 +3,6 @@
 # This file is used to specify files and directories that should be ignored by Git.
 
 # project files
-app
 src/
 # dependencies
 node_modules/
