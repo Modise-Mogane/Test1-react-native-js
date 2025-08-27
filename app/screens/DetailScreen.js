@@ -8,6 +8,7 @@ export default function DetailScreen({ route }) {
   const [product, setProduct] = useState(null);
   const [loading, setLoading] = useState(true);
 
+  
   useEffect(() => {
     fetch(`https://fakestoreapi.com/products/${id}`)
       .then((res) => res.json())

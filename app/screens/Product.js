@@ -3,7 +3,6 @@ import Components from '../../ReactNativeElements'
 
 function Product(props) {
 
-
   return (
     <Components.View key={props.id} style={props.cardStyle}>
 
